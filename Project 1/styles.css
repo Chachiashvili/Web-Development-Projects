@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div1{
+    position: absolute;
+    left: 425px;
+    top: 100px;
+    height: 600px;
+    width: 800px;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.h10{
+    animation-name: rainbow;
+    animation-timing-function: infinite;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+}
+
+.div2{
+    height: 300px;
+    width: 170px;
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+    left: 30px;
+    bottom: 5px;
+    top: 165px;
+}
+
+p{
+    color: black;
+    font-family: cursive;
+    margin: 30px;
+}
+
+.h33{
+    color: white;
+    position: absolute;
+    left: 230px;
+    margin-top: 70px;
+    font-family: cursive;
+}
+
+hr{
+    width: 700px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.h222{
+    color: white;
+    position: absolute;
+    left: 400px;
+    top: 40px;
+    margin-top: 60px;
+    font-family: cursive;
+}
+
+footer{
+    margin-top: 500px;
+    margin-left: 250px;
+    color: white;
+}
+
+.p223{
+    color: white;
+    margin-top: 130px;
+    margin-left: 250px;
+}
+
+.img1{
+    width: 200px;
+    height: 100px;
+    margin-left: 250px;
+    margin-top: 100px;
+    display: inline;
+    cursor: pointer;
+}
+
+.img2{
+   width: 200px;
+   height: 100px;
+   margin-left: 30px;
+   cursor: pointer;
+}
+
+.img3{
+    width: 200px;
+    height: 100px;
+    margin-left: 250px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.img4{
+    width: 200px;
+    height: 100px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+
+@keyframes rainbow {
+    50% {
+        color: white;
+    }
+
+    100% {
+        color: black;
+    }
+}
