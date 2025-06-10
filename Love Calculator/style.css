@@ -1,0 +1,102 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images.png");
+    color: deeppink;
+}
+
+.div1{
+    width: 400px;
+    height: 650px;
+    background-color: white;
+    position: relative;
+    top: 150px;
+    right: 150px;
+    border-radius: 15px;
+}
+
+.h1{
+    position: relative;
+    left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p1{
+    position: relative;
+    left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.p2{
+    position: relative;
+    left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 50px;
+    font-weight: bold;
+}
+
+.label1{
+    font-weight: bold;
+    position: relative;
+    left: 50px;
+}
+
+.inp1{
+    font-weight: bold;
+    position: relative;
+    left: 66px;
+    color: deeppink;
+}
+
+
+.label2{
+    font-weight: bold;
+    position: relative;
+    top: 60px;
+    right: 223px;
+}  
+
+.inp2{
+    font-weight: bold;
+    position: relative;
+    top: 25px;
+    left: 150px;
+    color: deeppink;
+}
+
+#result{
+    position: relative;
+    top: 200px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 20px;
+}
+
+button{
+    position: relative;
+    top: 150px;
+    right: 60px;
+    background-color: deeppink;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: rotate(360deg);
+    transition: 2s;
+}
+
+.h2{
+    position: relative;
+    top: 250px;
+    left: 130px;
+    cursor: pointer;
+}
